@@ -5,25 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css"/>
-    <script src="./index.js" defer></script>
+    <script type="module" src="./index.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div id="form">
-        <h1>Create Account</h1>
-        <label for="username">UserName</label>
-        <input id="username" type="text" placeholder="Please enter your name..."/>
-        <div id="username-error" class="error"></div>
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="some@emaple.com"/>
-        <div id="email-error" class="error"></div>
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Password"/>
-        <div id="password-error" class="error"></div>
-        <label for="confirm-password">Confirm Password</label>
-        <input id="confirm-password" type="password" placeholder="Confirm Password"/>
-        <div id="confirm-error"  class="error"></div>
-        <button id="submit">Submit</button>
-    </div>
+    <div id="main">
+        <input type="text" id="pincode"/>
+        <button id="search">Search</button>
+        <div id="show"></div>
+    </div>    
 </body>
 </html>
